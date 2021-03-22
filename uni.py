@@ -1,6 +1,6 @@
 mail = "semhodnekrasnej10@gmail.com"
 for znak in range(len(mail)): #tady určít, že znak = cokoliv, v range(délky mailu, čož = 23 znaků)
-    if mail[znak] ==".":    #tady if statement, pokud v mail[znak] (což je seznam) je ".", tak cčko = znak a vytiskne to c
+    if mail[znak] ==".":    #tady if statement, pokud v mail[znak] (což je seznam) je ".", tak cčko = "." a print toho za c
         c=znak
         print("Tvoja doména je:",mail[c:])
 for znak in range(len(mail)): #viz výše, určitě by to šlo udělat do 1dné f-ce for, ale takhle ti to funguje, tak to nech
